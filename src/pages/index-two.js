@@ -40,7 +40,7 @@ export default function IndexTwo() {
                 </p>
 
                 <div className="d-md-flex justify-content-between align-items-center bg-white shadow rounded p-2 mt-4">
-                  <FormSelect />
+                  <FormSelect redirect />
                 </div>
 
                 <div className="mt-2">
