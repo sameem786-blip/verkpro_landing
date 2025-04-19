@@ -13,6 +13,8 @@ import {
   FiTwitter,
   FiBookmark,
   FiGlobe,
+  FiMail,
+  FiPhone,
 } from "../assets/icons/vander";
 
 export default function Footer({ top }) {
@@ -130,24 +132,25 @@ export default function Footer({ top }) {
 
             <div className="col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
               <ul className="list-unstyled social-icon foot-social-icon text-sm-end mb-0">
-                {/* <li className="list-inline-item">
-                  <Link
-                    to="https://1.envato.market/jobnova-react"
-                    target="_blank"
+                <li className="list-inline-item">
+                  <a
+                    href="mailto:info@verkpro.com"
+                    title="info@verkpro.com"
                     className="rounded"
                   >
-                    <FiShoppingCart className="fea icon-sm align-middle" />
-                  </Link>
-                </li> */}
-                {/* <li className="list-inline-item">
-                  <Link
-                    to="https://dribbble.com/shreethemes"
-                    target="_blank"
+                    <FiMail className="fea icon-sm align-middle" />
+                  </a>
+                </li>
+
+                <li className="list-inline-item">
+                  <a
+                    href="tel:+1234567890"
+                    title="+1234567890"
                     className="rounded"
                   >
-                    <FiDribbble className="fea icon-sm align-middle" />
-                  </Link>
-                </li> */}
+                    <FiPhone className="fea icon-sm align-middle" />
+                  </a>
+                </li>
                 <li className="list-inline-item">
                   <Link
                     to="https://www.linkedin.com/company/verkproo/"
