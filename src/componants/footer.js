@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import logo from "../assets/images/logo-light.png";
+import logo from "../assets/images/verkproLogo.png";
 import verkPro from "../assets/images/verkproLogo.png";
 
 import {
@@ -12,6 +12,7 @@ import {
   FiInstagram,
   FiTwitter,
   FiBookmark,
+  FiGlobe,
 } from "../assets/icons/vander";
 
 export default function Footer({ top }) {
@@ -62,8 +63,8 @@ export default function Footer({ top }) {
               <div className="row align-items-center">
                 <div className="col-sm-3">
                   <div className="text-center text-sm-start">
-                    <Link to="">
-                      <img src={logo} alt="" />
+                    <Link className="logo" to="/">
+                      <img src={logo} className="l-light w-50" alt="" />
                     </Link>
                   </div>
                 </div>
@@ -71,27 +72,8 @@ export default function Footer({ top }) {
                 <div className="col-sm-9 mt-4 mt-sm-0">
                   <ul className="list-unstyled footer-list terms-service text-center text-sm-end mb-0">
                     <li className="list-inline-item my-2">
-                      <Link
-                        to="/index"
-                        className="text-foot fs-6 fw-medium me-2"
-                      >
+                      <Link to="/" className="text-foot fs-6 fw-medium me-2">
                         <i className="mdi mdi-circle-small"></i> Home
-                      </Link>
-                    </li>
-                    <li className="list-inline-item my-2">
-                      <Link
-                        to="/services"
-                        className="text-foot fs-6 fw-medium me-2"
-                      >
-                        <i className="mdi mdi-circle-small"></i> How it works
-                      </Link>
-                    </li>
-                    <li className="list-inline-item my-2">
-                      <Link
-                        to="/job-post"
-                        className="text-foot fs-6 fw-medium me-2"
-                      >
-                        <i className="mdi mdi-circle-small"></i> Create a job
                       </Link>
                     </li>
                     <li className="list-inline-item my-2">
@@ -99,12 +81,31 @@ export default function Footer({ top }) {
                         to="/aboutus"
                         className="text-foot fs-6 fw-medium me-2"
                       >
-                        <i className="mdi mdi-circle-small"></i> About us
+                        <i className="mdi mdi-circle-small"></i> About Us
                       </Link>
                     </li>
                     <li className="list-inline-item my-2">
-                      <Link to="/pricing" className="text-foot fs-6 fw-medium">
-                        <i className="mdi mdi-circle-small"></i> Plans
+                      <Link
+                        to="/services"
+                        className="text-foot fs-6 fw-medium me-2"
+                      >
+                        <i className="mdi mdi-circle-small"></i> Services
+                      </Link>
+                    </li>
+                    <li className="list-inline-item my-2">
+                      <Link
+                        to="/workwithus"
+                        className="text-foot fs-6 fw-medium me-2"
+                      >
+                        <i className="mdi mdi-circle-small"></i> Work with us
+                      </Link>
+                    </li>
+                    <li className="list-inline-item my-2">
+                      <Link
+                        to="/contactus"
+                        className="text-foot fs-6 fw-medium"
+                      >
+                        <i className="mdi mdi-circle-small"></i> Contact Us
                       </Link>
                     </li>
                   </ul>
@@ -121,23 +122,15 @@ export default function Footer({ top }) {
             <div className="col-sm-6">
               <div className="text-sm-start">
                 <p className="mb-0 fw-medium">
-                  © {new Date().getFullYear()} Jobnova. Design with{" "}
-                  <i className="mdi mdi-heart text-danger"></i> by{" "}
-                  <Link
-                    to="https://shreethemes.in/"
-                    target="_blank"
-                    className="text-reset"
-                  >
-                    Shreethemes
-                  </Link>
-                  .
+                  © {new Date().getFullYear()} VerkPro Pvt Ltd. All rights
+                  reserved.
                 </p>
               </div>
             </div>
 
             <div className="col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
               <ul className="list-unstyled social-icon foot-social-icon text-sm-end mb-0">
-                <li className="list-inline-item">
+                {/* <li className="list-inline-item">
                   <Link
                     to="https://1.envato.market/jobnova-react"
                     target="_blank"
@@ -145,8 +138,8 @@ export default function Footer({ top }) {
                   >
                     <FiShoppingCart className="fea icon-sm align-middle" />
                   </Link>
-                </li>
-                <li className="list-inline-item">
+                </li> */}
+                {/* <li className="list-inline-item">
                   <Link
                     to="https://dribbble.com/shreethemes"
                     target="_blank"
@@ -154,10 +147,10 @@ export default function Footer({ top }) {
                   >
                     <FiDribbble className="fea icon-sm align-middle" />
                   </Link>
-                </li>
+                </li> */}
                 <li className="list-inline-item">
                   <Link
-                    to="http://linkedin.com/company/shreethemes"
+                    to="https://www.linkedin.com/company/verkproo/"
                     target="_blank"
                     className="rounded"
                   >
@@ -166,7 +159,7 @@ export default function Footer({ top }) {
                 </li>
                 <li className="list-inline-item">
                   <Link
-                    to="https://www.facebook.com/shreethemes"
+                    to="https://www.facebook.com/share/16E3aMaCRo/?mibextid=wwXIfr"
                     target="_blank"
                     className="rounded"
                   >
@@ -175,7 +168,7 @@ export default function Footer({ top }) {
                 </li>
                 <li className="list-inline-item">
                   <Link
-                    to="https://www.instagram.com/shreethemes/"
+                    to="https://www.instagram.com/verkpro?igsh=NWZtaHZqZTM3a2d4"
                     target="_blank"
                     className="rounded"
                   >
@@ -183,12 +176,17 @@ export default function Footer({ top }) {
                   </Link>
                 </li>
                 <li className="list-inline-item">
+                  <Link to="#" target="_blank" className="rounded">
+                    <FiTwitter className="fea icon-sm align-middle" />
+                  </Link>
+                </li>
+                <li className="list-inline-item">
                   <Link
-                    to="https://twitter.com/shreethemes"
+                    to="https://verkpro.com"
                     target="_blank"
                     className="rounded"
                   >
-                    <FiTwitter className="fea icon-sm align-middle" />
+                    <FiGlobe className="fea icon-sm align-middle" />
                   </Link>
                 </li>
               </ul>

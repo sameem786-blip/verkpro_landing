@@ -15,6 +15,8 @@ export default function ContactUs() {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    console.log("Contact value:", e.target.contact.value);
+
     emailjs
       .sendForm(
         "service_nybtt1z", // 🔁 Your Service ID
@@ -131,6 +133,19 @@ export default function ContactUs() {
                     <div className="col-12">
                       <div className="mb-3">
                         <label className="form-label fw-semibold">
+                          Contact
+                        </label>
+                        <input
+                          name="contact"
+                          id="contact"
+                          className="form-control"
+                          placeholder="Contact with country code :"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-12">
+                      <div className="mb-3">
+                        <label className="form-label fw-semibold">
                           Subject
                         </label>
                         <input
@@ -177,7 +192,7 @@ export default function ContactUs() {
           </div>
         </div>
 
-        <div className="container mt-100 mt-60">
+        {/* <div className="container mt-100 mb-60">
           <div className="row g-4">
             {contactData.map((item, index) => {
               let Icon = item.icon;
@@ -200,9 +215,9 @@ export default function ContactUs() {
               );
             })}
           </div>
-        </div>
+        </div> */}
 
-        <div className="container-fluid mt-100 mt-60">
+        {/* <div className="container-fluid mt-100 mt-60">
           <div className="row">
             <div className="col-12 p-0">
               <div className="card map border-0">
@@ -217,7 +232,7 @@ export default function ContactUs() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
       <Footer />
       <ScrollTop />

@@ -76,7 +76,7 @@ export default function Navbar({ navClass, navLight }) {
         {navLight === true ? (
           <Link className="logo" to="/">
             <span className="logo-light-mode">
-              <img src={logo} className="l-dark" alt="" />
+              {/* <img src={logo} className="l-dark" alt="" /> */}
               <img src={logo} className="l-light" alt="" />
             </span>
             <img src={logo} className="logo-dark-mode" alt="" />
@@ -237,15 +237,15 @@ export default function Navbar({ navClass, navLight }) {
               </Link>
             </li>
 
-            <li className={manu === "job-list-one" ? "active" : ""}>
+            {/* <li className={manu === "job-list-one" ? "active" : ""}>
               <Link to="/job-list-one" className="sub-menu-item">
                 Jobs
               </Link>
-            </li>
+            </li> */}
 
             <li className={manu === "employers" ? "active" : ""}>
               <Link to="/employers" className="sub-menu-item">
-                Clients
+                Work with us
               </Link>
             </li>
 

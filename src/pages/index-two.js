@@ -33,13 +33,13 @@ export default function IndexTwo() {
                   Seamless Global <br /> Workforce Management
                 </h1>
                 <p className="para-desc text-white-50 mx-auto mb-0">
-                  Verk Pro empowers businesses with comprehensive remote
+                  VerkPro empowers businesses with comprehensive remote
                   workforce solutions, enabling organizations to hire, manage,
                   and pay employees globally without the complexities of
                   international compliance, payroll, and legal risks.
                 </p>
 
-                <div className="d-md-flex justify-content-between align-items-center bg-white shadow rounded p-2 mt-4">
+                {/* <div className="d-md-flex justify-content-between align-items-center bg-white shadow rounded p-2 mt-4">
                   <FormSelect redirect />
                 </div>
 
@@ -48,7 +48,7 @@ export default function IndexTwo() {
                     <span className="text-white">Popular Searches :</span>{" "}
                     Designer, Developer, Web, IOS, PHP Senior Engineer
                   </span>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -74,12 +74,45 @@ export default function IndexTwo() {
           <div className="row justify-content-center mb-4 pb-2">
             <div className="col-12">
               <div className="section-title text-center">
-                <h4 className="title mb-3">Trending Services</h4>
-                <p className="text-muted para-desc mx-auto mb-0">
-                  Search all the open positions on the web. Get your own
-                  personalized salary estimate. Read reviews on over 30000+
-                  companies worldwide.
-                </p>
+                <h4 className="title mb-3">Our Core Values</h4>
+              </div>
+            </div>
+
+            <div className="col-12">
+              <div className="row text-center">
+                <div className="col-md-6 col-lg-3 mb-4">
+                  <div className="p-3 border rounded shadow h-100">
+                    <h5 className="mb-2">💡 Compliance First</h5>
+                    <p className="text-muted mb-0">
+                      We ensure every hire meets international labor laws.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-md-6 col-lg-3 mb-4">
+                  <div className="p-3 border rounded shadow h-100">
+                    <h5 className="mb-2">🚀 Scalability</h5>
+                    <p className="text-muted mb-0">
+                      We make global expansion fast and frictionless.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-md-6 col-lg-3 mb-4">
+                  <div className="p-3 border rounded shadow h-100">
+                    <h5 className="mb-2">🔍 Transparency</h5>
+                    <p className="text-muted mb-0">
+                      Clear, data-driven workforce solutions with no hidden
+                      costs.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-md-6 col-lg-3 mb-4">
+                  <div className="p-3 border rounded shadow h-100">
+                    <h5 className="mb-2">🤝 People-First</h5>
+                    <p className="text-muted mb-0">
+                      Prioritizing employee experience and engagement.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -89,7 +122,7 @@ export default function IndexTwo() {
         <AboutUs containerClass="container mt-100 mt-60" />
 
         <div className="container mt-100 mt-60">
-          <div className="row justify-content-center mb-4 pb-2">
+          {/* <div className="row justify-content-center mb-4 pb-2">
             <div className="col-12">
               <div className="section-title text-center">
                 <h4 className="title mb-3">Popular Job Listing</h4>
@@ -100,9 +133,9 @@ export default function IndexTwo() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="row g-4 mt-0">
+          {/* <div className="row g-4 mt-0">
             {jobData.slice(0, 8).map((item, index) => {
               return (
                 <div className="col-12" key={index}>
@@ -173,12 +206,12 @@ export default function IndexTwo() {
                 </Link>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
-        <div className="container mt-100 mt-60">
+        {/* <div className="container mt-100 mt-60">
           <Companies />
-        </div>
+        </div> */}
 
         <div className="container mt-100 mt-60">
           <div className="row justify-content-center">

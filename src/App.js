@@ -50,52 +50,52 @@ function App() {
     <>
       <Routes>
         <Route path="/" exact element={<IndexTwo />} />
-        <Route path="/index" element={<Index />} />
-        <Route path="/index-two" element={<IndexTwo />} />
-        <Route path="/index-three" element={<IndexThree />} />
-        <Route path="/job-categories" element={<JobCategories />} />
-        <Route path="/job-grid-one" element={<JobGridOne />} />
-        <Route path="/job-grid-two" element={<JobGridTwo />} />
-        <Route path="/job-grid-three" element={<JobGridThree />} />
-        <Route path="/job-grid-four" element={<JobGridFour />} />
-        <Route path="/job-list-one" element={<JobListOne />} />
-        <Route path="/job-list-Two" element={<JobListTwo />} />
-        <Route path="/job-apply" element={<JobApply />} />
-        <Route path="/job-post" element={<JobPost />} />
-        <Route path="/career" element={<Career />} />
-        <Route path="/job-detail-three" element={<JobDetailThree />} />
-        <Route path="/job-detail-three/:id" element={<JobDetailThree />} />
-        <Route path="/job-detail-two" element={<JobDetailTwo />} />
-        <Route path="/job-detail-two/:id" element={<JobDetailTwo />} />
-        <Route path="/job-detail-one" element={<JobDetailOne />} />
-        <Route path="/job-detail-one/:id" element={<JobDetailOne />} />
+        {/* <Route path="/index" element={<Index />} /> */}
+        {/* <Route path="/index-two" element={<IndexTwo />} /> */}
+        {/* <Route path="/index-three" element={<IndexThree />} /> */}
+        {/* <Route path="/job-categories" element={<JobCategories />} /> */}
+        {/* <Route path="/job-grid-one" element={<JobGridOne />} /> */}
+        {/* <Route path="/job-grid-two" element={<JobGridTwo />} /> */}
+        {/* <Route path="/job-grid-three" element={<JobGridThree />} /> */}
+        {/* <Route path="/job-grid-four" element={<JobGridFour />} /> */}
+        {/* <Route path="/job-list-one" element={<JobListOne />} /> */}
+        {/* <Route path="/job-list-Two" element={<JobListTwo />} /> */}
+        {/* <Route path="/job-apply" element={<JobApply />} /> */}
+        {/* <Route path="/job-post" element={<JobPost />} /> */}
+        {/* <Route path="/career" element={<Career />} /> */}
+        {/* <Route path="/job-detail-three" element={<JobDetailThree />} /> */}
+        {/* <Route path="/job-detail-three/:id" element={<JobDetailThree />} /> */}
+        {/* <Route path="/job-detail-two" element={<JobDetailTwo />} /> */}
+        {/* <Route path="/job-detail-two/:id" element={<JobDetailTwo />} /> */}
+        {/* <Route path="/job-detail-one" element={<JobDetailOne />} /> */}
+        {/* <Route path="/job-detail-one/:id" element={<JobDetailOne />} /> */}
         <Route path="/employers" element={<Employers />} />
-        <Route path="/employer-profile" element={<EmployerProfile />} />
-        <Route path="/employer-profile/:id" element={<EmployerProfile />} />
-        <Route path="/candidates" element={<Candidates />} />
-        <Route path="/candidate-profile" element={<CandidateProfile />} />
-        <Route path="/candidate-profile/:id" element={<CandidateProfile />} />
-        <Route
+        {/* <Route path="/employer-profile" element={<EmployerProfile />} /> */}
+        {/* <Route path="/employer-profile/:id" element={<EmployerProfile />} /> */}
+        {/* <Route path="/candidates" element={<Candidates />} /> */}
+        {/* <Route path="/candidate-profile" element={<CandidateProfile />} /> */}
+        {/* <Route path="/candidate-profile/:id" element={<CandidateProfile />} /> */}
+        {/* <Route
           path="/candidate-profile-setting"
           element={<CandidateProfileSetting />}
-        />
+        /> */}
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/pricing" element={<Pricing />} />
-        <Route path="/helpcenter-overview" element={<HelpcenterOverview />} />
+        {/* <Route path="/pricing" element={<Pricing />} /> */}
+        {/* <Route path="/helpcenter-overview" element={<HelpcenterOverview />} />
         <Route path="/helpcenter-faqs" element={<HelpcenterFaq />} />
         <Route path="/helpcenter-guides" element={<HelpcenterGuides />} />
-        <Route path="/helpcenter-support" element={<HelpcenterSupport />} />
+        <Route path="/helpcenter-support" element={<HelpcenterSupport />} /> */}
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/blog-sidebar" element={<BlogSidebar />} />
         <Route path="/blog-detail" element={<BlogDetail />} />
         <Route path="/blog-detail/:id" element={<BlogDetail />} />
-        <Route path="/login" element={<Login />} />
+        {/* <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/lock-screen" element={<LockScreen />} />
         <Route path="/terms" element={<Terms />} />
-        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/privacy" element={<Privacy />} /> */}
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="*" element={<Error />} />
         <Route path="/error" element={<Error />} />

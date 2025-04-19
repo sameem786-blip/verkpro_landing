@@ -44,34 +44,57 @@ export default function AboutUs({ containerClass }) {
 
           <div className="col-lg-6 col-md-6">
             <div className="section-title ms-lg-5">
-              <h4 className="title mb-3">
-                Empowering the Future of Work
-                <br /> Find the one that's right for you.
-              </h4>
-              <p className="text-muted para-desc mb-0">
-                Search all the open positions on the web. Get your own
-                personalized salary estimate. Read reviews on over 30000+
-                companies worldwide.
-              </p>
+              <h4 className="title mb-3">Why Choose Verk Pro?</h4>
 
               <ul className="list-unstyled text-muted mb-0 mt-3">
-                <li className="mb-1">
-                  <span className="text-primary h5 me-2">
-                    <i className="mdi mdi-check-circle-outline align-middle"></i>
+                <li className="d-flex align-items-start mb-3">
+                  <span className="text-success h5 me-3 mt-1">
+                    <i className="mdi mdi-check-circle-outline"></i>
                   </span>
-                  Digital Marketing Solutions for Tomorrow
+                  <p className="mb-0 fw-bold" style={{ lineHeight: "1.6" }}>
+                    Global Hiring Made Simple{" "}
+                    <span className="fw-normal text-muted">
+                      – We handle compliance, payroll, and HR for your remote
+                      teams.
+                    </span>
+                  </p>
                 </li>
-                <li className="mb-1">
-                  <span className="text-primary h5 me-2">
-                    <i className="mdi mdi-check-circle-outline align-middle"></i>
+
+                <li className="d-flex align-items-start mb-3">
+                  <span className="text-success h5 me-3 mt-1">
+                    <i className="mdi mdi-check-circle-outline"></i>
                   </span>
-                  Our Talented & Experienced Marketing Agency
+                  <p className="mb-0 fw-bold" style={{ lineHeight: "1.6" }}>
+                    End-to-End Workforce Management{" "}
+                    <span className="fw-normal text-muted">
+                      – From talent acquisition to ongoing employee support.
+                    </span>
+                  </p>
                 </li>
-                <li className="mb-1">
-                  <span className="text-primary h5 me-2">
-                    <i className="mdi mdi-check-circle-outline align-middle"></i>
+
+                <li className="d-flex align-items-start mb-3">
+                  <span className="text-success h5 me-3 mt-1">
+                    <i className="mdi mdi-check-circle-outline"></i>
                   </span>
-                  Create your own skin to match your brand
+                  <p className="mb-0 fw-bold" style={{ lineHeight: "1.6" }}>
+                    Faster, Cost-Effective Scaling{" "}
+                    <span className="fw-normal text-muted">
+                      – Expand your workforce without setting up foreign
+                      entities.
+                    </span>
+                  </p>
+                </li>
+
+                <li className="d-flex align-items-start mb-3">
+                  <span className="text-success h5 me-3 mt-1">
+                    <i className="mdi mdi-check-circle-outline"></i>
+                  </span>
+                  <p className="mb-0 fw-bold" style={{ lineHeight: "1.6" }}>
+                    Risk-Free Employment Solutions{" "}
+                    <span className="fw-normal text-muted">
+                      – Ensure 100% legal and tax compliance in every country.
+                    </span>
+                  </p>
                 </li>
               </ul>
 
