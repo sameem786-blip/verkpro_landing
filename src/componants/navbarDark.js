@@ -366,7 +366,7 @@ export default function NavbarDark() {
               <span className="menu-arrow"></span>
               <ul className="submenu">
                 <li className={manu === "employers" ? "active" : ""}>
-                  <Link to="/employers" className="sub-menu-item">
+                  <Link to="/workwithus" className="sub-menu-item">
                     Employers
                   </Link>
                 </li>

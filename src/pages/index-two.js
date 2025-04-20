@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import heroImg from "../assets/images/hero/bg.jpg";
+import heroImg from "../assets/images/hero/hero2.jpg";
 
 import Navbar from "../componants/navbar";
 import FormSelect from "../componants/formSelect";

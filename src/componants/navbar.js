@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import logoDark from "../assets/images/logo-dark.png";
 import logoWhite from "../assets/images/logo-white.png";
 import logoLight from "../assets/images/logo-light.png";
-import logo from "../assets/images/verkproLogo.png";
+import logo from "../assets/images/verkpro.png";
 import client from "../assets/images/team/01.jpg";
 import {
   LuSearch,
@@ -76,7 +76,7 @@ export default function Navbar({ navClass, navLight }) {
         {navLight === true ? (
           <Link className="logo" to="/">
             <span className="logo-light-mode">
-              {/* <img src={logo} className="l-dark" alt="" /> */}
+              <img src={logo} className="l-dark" alt="" />
               <img src={logo} className="l-light" alt="" />
             </span>
             <img src={logo} className="logo-dark-mode" alt="" />
@@ -244,7 +244,7 @@ export default function Navbar({ navClass, navLight }) {
             </li> */}
 
             <li className={manu === "employers" ? "active" : ""}>
-              <Link to="/employers" className="sub-menu-item">
+              <Link to="/workwithus" className="sub-menu-item">
                 Work with us
               </Link>
             </li>
@@ -401,7 +401,7 @@ export default function Navbar({ navClass, navLight }) {
               <span className="menu-arrow"></span>
               <ul className="submenu">
                 <li className={manu === "employers" ? "active" : ""}>
-                  <Link to="/employers" className="sub-menu-item">
+                  <Link to="/workwithus" className="sub-menu-item">
                     Employers
                   </Link>
                 </li>

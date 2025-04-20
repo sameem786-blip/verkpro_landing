@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
-import logo from "../assets/images/verkproLogo.png";
+import logo from "../assets/images/verkpro.png";
 import verkPro from "../assets/images/verkproLogo.png";
 
 import {

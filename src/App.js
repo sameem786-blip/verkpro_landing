@@ -69,7 +69,7 @@ function App() {
         {/* <Route path="/job-detail-two/:id" element={<JobDetailTwo />} /> */}
         {/* <Route path="/job-detail-one" element={<JobDetailOne />} /> */}
         {/* <Route path="/job-detail-one/:id" element={<JobDetailOne />} /> */}
-        <Route path="/employers" element={<Employers />} />
+        <Route path="/workwithus" element={<Employers />} />
         {/* <Route path="/employer-profile" element={<EmployerProfile />} /> */}
         {/* <Route path="/employer-profile/:id" element={<EmployerProfile />} /> */}
         {/* <Route path="/candidates" element={<Candidates />} /> */}

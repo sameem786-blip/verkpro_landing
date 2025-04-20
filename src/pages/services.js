@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import bg1 from "../assets/images/hero/bg.jpg";
+import bg1 from "../assets/images/hero/bg3.jpg";
 
 import Navbar from "../componants/navbar";
 import Faq from "../componants/faq";

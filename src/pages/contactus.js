@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import bg1 from "../assets/images/hero/bg.jpg";
+import bg1 from "../assets/images/hero/bg5.jpg";
 import contact from "../assets/images/svg/contact.svg";
 
 import { contactData } from "../data/data";
