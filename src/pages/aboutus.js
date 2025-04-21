@@ -237,63 +237,92 @@ export default function AboutUs() {
               <div className="section-title text-center mb-4 pb-2">
                 <h4 className="title mb-3">Our Minds</h4>
                 <p className="text-muted para-desc mb-0 mx-auto">
-                  Search all the open positions on the web. Get your own
-                  personalized salary estimate. Read reviews on over 30000+
-                  companies worldwide.
+                  Meet the visionary minds behind Verk Pro. Our team brings
+                  together expertise from around the globe to build borderless,
+                  compliant, and high-performing workforces. We're united by a
+                  shared mission to simplify global hiring and empower
+                  businesses to scale with confidence.
                 </p>
               </div>
             </div>
           </div>
 
+          {/* First row: 3 members */}
           <div className="row g-4 mt-0">
-            {teamData.map((item, index) => {
-              return (
-                <div className="col-lg-3 col-md-4 col-12" key={index}>
-                  <div className="card team team-primary text-center">
-                    <div className="card-img team-image d-inline-block mx-auto rounded-pill avatar avatar-ex-large overflow-hidden">
-                      <img src={item.image} className="img-fluid" alt="" />
-                      <div className="card-overlay avatar avatar-ex-large rounded-pill"></div>
-
-                      <ul className="list-unstyled team-social mb-0">
-                        <li className="list-inline-item">
-                          <Link
-                            to="#"
-                            className="btn btn-sm btn-pills btn-icon"
-                          >
-                            <FiFacebook className="icons fea-social" />
-                          </Link>
-                        </li>
-                        <li className="list-inline-item">
-                          <Link
-                            to="#"
-                            className="btn btn-sm btn-pills btn-icon"
-                          >
-                            <FiInstagram className="icons fea-social" />
-                          </Link>
-                        </li>
-                        <li className="list-inline-item">
-                          <Link
-                            to="#"
-                            className="btn btn-sm btn-pills btn-icon"
-                          >
-                            <FiTwitter className="icons fea-social" />
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-
-                    <div className="content mt-3">
-                      <Link to="#" className="text-dark h5 mb-0 title">
-                        {item.name}
-                      </Link>
-                      <h6 className="text-muted mb-0 fw-normal">
-                        {item.title}
-                      </h6>
-                    </div>
+            {teamData.slice(0, 3).map((item, index) => (
+              <div className="col-lg-4 col-md-4 col-12" key={index}>
+                <div className="card team team-primary text-center">
+                  <div
+                    className="card-img team-image d-inline-block mx-auto rounded-pill avatar avatar-ex-large overflow-hidden"
+                    style={{ border: "2px solid #1e293b" }}
+                  >
+                    <img src={item.image} className="img-fluid" alt="" />
+                    {/* <div className="card-overlay avatar avatar-ex-large rounded-pill"></div> */}
+                    {/* <ul className="list-unstyled team-social mb-0">
+                      <li className="list-inline-item">
+                        <Link to="#" className="btn btn-sm btn-pills btn-icon">
+                          <FiFacebook className="icons fea-social" />
+                        </Link>
+                      </li>
+                      <li className="list-inline-item">
+                        <Link to="#" className="btn btn-sm btn-pills btn-icon">
+                          <FiInstagram className="icons fea-social" />
+                        </Link>
+                      </li>
+                      <li className="list-inline-item">
+                        <Link to="#" className="btn btn-sm btn-pills btn-icon">
+                          <FiTwitter className="icons fea-social" />
+                        </Link>
+                      </li>
+                    </ul> */}
+                  </div>
+                  <div className="content mt-3">
+                    <Link to="#" className="text-dark h5 mb-0 title">
+                      {item.name}
+                    </Link>
+                    <h6 className="text-muted mb-0 fw-normal">{item.title}</h6>
                   </div>
                 </div>
-              );
-            })}
+              </div>
+            ))}
+          </div>
+          <div className="row g-4 mt-0">
+            {teamData.slice(3, 6).map((item, index) => (
+              <div className="col-lg-4 col-md-4 col-12" key={index}>
+                <div className="card team team-primary text-center">
+                  <div
+                    className="card-img team-image d-inline-block mx-auto rounded-pill avatar avatar-ex-large overflow-hidden"
+                    style={{ border: "2px solid #1e293b" }}
+                  >
+                    <img src={item.image} className="img-fluid" alt="" />
+                    {/* <div className="card-overlay avatar avatar-ex-large rounded-pill"></div> */}
+                    {/* <ul className="list-unstyled team-social mb-0">
+                      <li className="list-inline-item">
+                        <Link to="#" className="btn btn-sm btn-pills btn-icon">
+                          <FiFacebook className="icons fea-social" />
+                        </Link>
+                      </li>
+                      <li className="list-inline-item">
+                        <Link to="#" className="btn btn-sm btn-pills btn-icon">
+                          <FiInstagram className="icons fea-social" />
+                        </Link>
+                      </li>
+                      <li className="list-inline-item">
+                        <Link to="#" className="btn btn-sm btn-pills btn-icon">
+                          <FiTwitter className="icons fea-social" />
+                        </Link>
+                      </li>
+                    </ul> */}
+                  </div>
+                  <div className="content mt-3">
+                    <Link to="#" className="text-dark h5 mb-0 title">
+                      {item.name}
+                    </Link>
+                    <h6 className="text-muted mb-0 fw-normal">{item.title}</h6>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
 

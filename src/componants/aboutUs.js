@@ -23,13 +23,13 @@ export default function AboutUs({ containerClass }) {
                 <img src={about2} className="img-fluid rounded" alt="" />
 
                 <div className="position-absolute top-0 start-50 translate-middle">
-                  <Link
+                  {/* <Link
                     to="#!"
                     onClick={() => setOpen(true)}
                     className="avatar avatar-md-md rounded-pill shadow card d-flex justify-content-center align-items-center lightbox"
                   >
                     <i className="mdi mdi-play mdi-24px text-primary"></i>
-                  </Link>
+                  </Link> */}
                 </div>
                 <ModalVideo
                   channel="youtube"

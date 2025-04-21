@@ -37,6 +37,13 @@ import team6 from "../assets/images/team/06.jpg";
 import team7 from "../assets/images/team/07.jpg";
 import team8 from "../assets/images/team/08.jpg";
 
+import Zain from "../assets/images/team/Zain.jpeg";
+import Bilal from "../assets/images/team/Bilal.jpeg";
+import Haris from "../assets/images/team/Haris.jpeg";
+import Hiba from "../assets/images/team/Hiba.jpeg";
+import Umama from "../assets/images/team/Umama.jpeg";
+import Athar from "../assets/images/team/athar_placeholder.png";
+
 import {
   FiAirplay,
   FiAward,
@@ -696,24 +703,35 @@ export const candidateSkill = [
 
 export const teamData = [
   {
-    image: team1,
-    name: "Jack John",
-    title: "Job Seeker",
+    image: Bilal,
+    name: "Bilal Bahoo",
+    title: "Director Customer Relations",
+  },
+
+  {
+    image: Athar,
+    name: "Muhammad Athar",
+    title: "Director IT",
   },
   {
-    image: team2,
-    name: "Krista John",
-    title: "Job Seeker",
+    image: Haris,
+    name: "Haris Khan",
+    title: "Head of Business Excellence & Strategy",
   },
   {
-    image: team3,
-    name: "Roger Jackson",
-    title: "Job Seeker",
+    image: Hiba,
+    name: "Hiba Khan",
+    title: "Director Operations",
   },
   {
-    image: team4,
-    name: "Johnny English",
-    title: "Job Seeker",
+    image: Zain,
+    name: "Zainuddin",
+    title: "CEO",
+  },
+  {
+    image: Umama,
+    name: "Umama Munir",
+    title: "Director Marketing",
   },
 ];
 export const helpcenterData = [
