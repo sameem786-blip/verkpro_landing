@@ -248,8 +248,9 @@ export default function AboutUs() {
           </div>
 
           {/* First row: 3 members */}
+
           <div className="row g-4 mt-0">
-            {teamData.slice(0, 3).map((item, index) => (
+            {teamData.slice(3, 6).map((item, index) => (
               <div className="col-lg-4 col-md-4 col-12" key={index}>
                 <div className="card team team-primary text-center">
                   <div
@@ -287,7 +288,7 @@ export default function AboutUs() {
             ))}
           </div>
           <div className="row g-4 mt-0">
-            {teamData.slice(3, 6).map((item, index) => (
+            {teamData.slice(0, 3).map((item, index) => (
               <div className="col-lg-4 col-md-4 col-12" key={index}>
                 <div className="card team team-primary text-center">
                   <div

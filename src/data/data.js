@@ -27,6 +27,15 @@ import work3 from "../assets/images/work/03.jpg";
 import work4 from "../assets/images/work/04.jpg";
 import work5 from "../assets/images/work/05.jpg";
 import work6 from "../assets/images/work/06.jpg";
+import Account from "../assets/images/work/Accounts.jpg";
+import BD from "../assets/images/work/Business development.jpg";
+import IT from "../assets/images/work/IT.jpg";
+import FC from "../assets/images/work/Financial controls.jpg";
+import Sales from "../assets/images/work/sales.jpg";
+import IOSales from "../assets/images/work/Inbound outbund sales.jpg";
+import Lead from "../assets/images/work/Lead generation.jpg";
+import Recruitment from "../assets/images/work/recruitment.jpg";
+import Payroll from "../assets/images/work/payroll management.jpg";
 
 import team1 from "../assets/images/team/01.jpg";
 import team2 from "../assets/images/team/02.jpg";
@@ -484,6 +493,42 @@ export const servicesTwo = [
   {
     image: work6,
     title: "Digital Marketing",
+  },
+  {
+    image: Account,
+    title: "Accounts",
+  },
+  {
+    image: IT,
+    title: "IT",
+  },
+  {
+    image: Sales,
+    title: "Sales",
+  },
+  {
+    image: IOSales,
+    title: "Inbound / Outbound Sales",
+  },
+  {
+    image: Recruitment,
+    title: "Reruitment",
+  },
+  {
+    image: BD,
+    title: "Business Development",
+  },
+  {
+    image: FC,
+    title: "Financial Controls",
+  },
+  {
+    image: Lead,
+    title: "Lead Generation",
+  },
+  {
+    image: Payroll,
+    title: "Payroll Management",
   },
 ];
 

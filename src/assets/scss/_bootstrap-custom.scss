@@ -31,7 +31,7 @@
 
 @each $name, $value in $colors {
   .bg-#{$name} {
-    background-color: #0f172a !important;
+    background-color: #0b63f3 !important;
   }
   .bg-soft-#{$name} {
     background-color: rgba($value, 0.05) !important;
